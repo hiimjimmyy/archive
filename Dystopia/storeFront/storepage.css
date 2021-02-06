@@ -5,29 +5,22 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+/*
 body
 {
 	height: 100%;
 }  
-
-#container
+*/
+.container
 {
-	min-height: 100%;
+	text-align: center !important; 
+	padding: 50%;
+	background-color: white;
+	
 }
 
-#container.main
+.container.first h2 p
 {
-	overflow: auto;
-	padding-bottom: 100px;
-	background-color: red;
-}
-
-.footer
-{
-	background-color: black;
-	position: relative;
-	height: 100px;
-	margin-bottom: -100px;
-	clear: both;
+	text-align: center;
+	padding: 100%;
 }
