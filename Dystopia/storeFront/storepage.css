@@ -13,14 +13,29 @@ body
 */
 .container
 {
-	text-align: center !important; 
-	padding: 50%;
-	background-color: white;
-	
+	margin: auto;
+	flex-grow: 1;
+	padding: 100px;
 }
 
-.container.first h2 p
+.container h2
 {
+	font-size: 100px;
+	justify-content: center;
 	text-align: center;
-	padding: 100%;
+}
+
+.container #first
+{
+	max-width: 400px;
+	height: auto;
+	position: relative;
+	float: center;
+	margin-left: 300px;
+	margin-top: 20px;
+}
+
+.container #second
+{
+	
 }
