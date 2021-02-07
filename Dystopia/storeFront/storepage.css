@@ -37,5 +37,23 @@ body
 
 .container #second
 {
+	width: auto;
+	max-height: 500px;
+	position: relative;
+	float: center;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	padding-left: 60px;
+}
+
+.container #third
+{
+	max-width: 800px;
+	margin-left: 800px;
+	margin-top: 60px;
+}
+
+.container #forth
+{
 	
 }
