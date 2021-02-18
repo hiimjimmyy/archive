@@ -11,6 +11,18 @@ body
 	height: 100%;
 }  
 */
+.navimenu
+{
+	text-align: center;
+	max-height: 80px;
+	width: auto;
+}
+
+.navimenu #titleName
+{
+	Font-size: 250%;
+}
+
 .container
 {
 	padding-top: 100px;
